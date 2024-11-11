@@ -1,0 +1,19 @@
+Servlet: It is a technology is used to create web application that resides at server
+side and generates dynamic web page.
+
+Life cycle:
+
+i)Loading and Instantiation: The servlet class is loaded and an instance is created.
+ii)Initialization: (init method) The servlet is initialized and prepared to handle request.
+iii)Request Handling:(service method)The servlet processes the client request.
+iv)Destruction:(destroy method)The servlet is taken out of service and its resources are cleaned up.
+
+Registration - /register - load register.jsp
+Process - /process - load data.jsp
+
+RequestDispatcher: It is an interface provides the facility of dispatching the request from one resource
+to another resource that may be html, servlet or jsp.
+
+include:It includes the content of a resource(html, servlet or jsp) in the response.
+forward:Forwards the request from one servlet to another resource(html, servlet or jsp) on the server. 
+
